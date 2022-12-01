@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image burada</title>
+</head>
+<body>
+ <!-- Resim yükleme    -->
+ <img src="assets/img/ronaldovmessi2.jpeg" 
+ alt="Resim Burada"  
+ width="350" 
+ height="150"
+ usemap="#FUTBOL"
+ />
+<!-- genel kültür resmin üzerinde belli noktalara tıklanınca bizi ilgili linke gönderir -->
+ <map name="FUTBOL">
+    <area shape="rect" coords="0,0,85,126" href="link.html" alt="link">
+    <area shape="circle" coords="90,58,3" href="list.html" alt="list">
+    <area shape="poly" coords="124,58,8," href="https://google.com" alt="google">
+ </map>
+<!-- iframe yapıyorum başka bir siteden kendi sitemize alıntı video website vs-->
+<iframe width="560" 
+height="315" 
+src="https://www.youtube.com/embed/HsHJiU5-ljU" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen>
+
+<!-- allow-top-navigate	: 	iframe içerisindeki içeriğin parent’ına gitme iznini verir.
+allow-forms			:	iframe içerisinde form varsa submit’lenmesi iznini verir.
+allow-popups		:	iframe içerisinden popup fırlatılabilmesi iznini verir.
+allow-scripts		:	iframe içerisindeki javascript kodlarının çalışabilmesi iznini
+verir (ancak halen popup oluşturulmasına izin vermez) -->
+
+</iframe>
+</body>
+</html>
