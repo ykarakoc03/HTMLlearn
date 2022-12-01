@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form İşlemlerim</title>
+</head>
+<body>
+    <!-- ilk formu oluşturuyoruz. form ile açtık. 
+      -> label (etiket) ile isim verdik
+      ->input type text metin kutusu oluşturdu 
+      ->name= arka tarafa gönderilen isim,etiket
+      ->value= defaul doldurulan metin
+      ->for= ne için olduğu  "id" ile eşleştirdik 
+      ->placeholder= silik şekilde kutu içinde çıkan ipucu
+      -->
+    
+    <form action="">
+        <label for="name">NAME</label>
+        <input type="text" name="name" value="" id="name" placeholder="isim giriniz">
+        <label for="">PASSWORD</label>
+        <input type="password" name="password"> <!-- şifre işlemlerinde girileni gizliyor -->
+        <label for="">ID</label>
+        <input type="number" name="Id" placeholder="10 haneli sayı gir"><!-- yukarı aşagı sayı seçebiliyoruz -->
+        <label for="">ARAMA</label>
+        <input type="search" name="search"><!-- arama işlemleri-->
+        <label for="">URL</label>
+        <input type="url" name="url"> <!-- web adresi için-->
+        <label for="">EMAİL</label>
+        <input type="email" name="email"><!-- email adresi için-->
+        <label for="">KULLANILMAZ</label>
+        <input type="text" disabled><!-- tıklanamaz kutucuk,belirtilen şartları sağlamıyorsa..vs kullanılabilir-->
+        <hr><br>
+
+        <!-- Farklı Türler -->
+        <label for="">CHECKBOX</label>
+        <input type="checkbox" name="" id="">
+
+        <!-- radio-> iki,üç .. seçenekten birini seçmemizi saglar
+        bunun için bütün seçeneklerdeki "name" variablesi aynı olmalı. 
+        value değeride mutlaka girilmeli ki kullanıcının ne seçtiği arka tarafa gönderilebilsin
+        lable deki for ve input daki id ile birbiri ile ilişkilendirilebilir-->
+        <input type="radio" name="cinsiyet" id="evli" value="evli">
+        <label for="evli">Evli</label><!--radyoda label sonra yazılmalı-->
+        <input type="radio" name="cinsiyet" id="bekar" value="bekar">
+        <label for="bekar">bekar</label>
+        
+        <label for="">Dosya Yükle</label>
+        <input type="file" name="" id="">
+
+        <label for="">Tarih SEÇ</label>
+        <input type="date" name="" id="">
+
+        <label for="">time</label>
+        <input type="time" name="" id="">
+
+
+        <label for="Sayılar">Sayılar</label>
+        <!-- mutiple size sayesinde ekranda kaç seçenekli aralık oldugunu belirtiyoruz-->
+        <select name="Sayılar" mutiple size="3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+            <!-- OPTGROUP DENİYORUM -->
+            <label for="">OPTGROUP</label>
+            <select name="" id="">
+                <optgroup label="MEYVELER">
+                    <option value="ELMA">ELMA</option>
+                    <option value="ARMUT">ARMUT</option>
+                </optgroup>
+                <Optgroup label="SEBZELER">
+                    <option value="DOMATES">DOMATES</option>
+                    <option value="SALATALIK">SALATALIK</option>
+                </Optgroup>
+            </select>
+
+            <!-- TEXTAREA DENİYORUM -->
+            <label for="yorum">TextArea</label>
+            <textarea 
+            name="yorum" 
+            id="yorum" 
+            cols="10" 
+            rows="5" 
+            placeholder="yorum yazınız"
+            required><!--boş göndermeyi engeller-->
+            </textarea>
+
+        <input type="button" value="Dügme">
+        <input type="submit" value="GÖNDER">  <!--gönderme işlemini yapar-->
+        <input type="reset" value="RESET"> <!--kutucukları temizler-->
+
+    </form>
+</body>
+</html>
