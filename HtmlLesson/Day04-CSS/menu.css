@@ -1,0 +1,24 @@
+* {
+    font-family: 'Zen Dots', cursive;
+    
+}
+.menu-container {
+    text-align: center;
+    width: 100px;
+    background:rgb(191, 190, 194) ;
+}
+
+.aktif {
+  
+    color: white;
+    background-color:gray;
+   
+}
+.dekorasyon {
+    text-decoration:line-through;
+
+}
+.italik {
+    font-style: italic;
+    font-weight: 700;
+}
