@@ -1,0 +1,15 @@
+html{/* root kök element tüm sayfayı etkiler */
+    background-color: green;
+}
+.container {
+    background-color: red;
+    width: 50vw;/*bu vw ölçü birimi kullanılan ekrana göre büyüyüp küçülebilir. telefon vs. ekranı için*/
+    height: 50vh;/* vh yükseklige göre ayarlama yapıyor*/
+
+}
+.test {
+    background-color: blue;
+    width: fit-content;
+    padding: 5rem 0;/* 4 yönde parametre si var top right bottom left. 5rem 0 sıraya göre 
+    (iki kez ver  5 0 5 0) sadece 5 yazarsak her yöne 5rem olur. rem yazı fontuna göre uzaklık oluşturur.*/
+}

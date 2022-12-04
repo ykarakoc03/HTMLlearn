@@ -1,0 +1,13 @@
+a:link{ /* linkin tıklanmamış halini düzenliyor*/
+    color: aqua;
+    text-decoration: none;/* linkindeki alt çizgiyi kaldırıyor*/
+}
+a:visited { /* linkin tıklanmış halini düzenliyor ziyaret edilmiş hali*/
+    color: darkmagenta;
+}
+a:hover {/* link daha tıklamadan maus ile üzerine gelince oluşan değişiklikler */
+    color: green;
+}
+p:hover{/*(hover her elementte kullanlabirlir)*/
+    color: red;
+}
