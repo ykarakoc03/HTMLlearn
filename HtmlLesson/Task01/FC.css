@@ -1,0 +1,28 @@
+html {
+    background-color: hotpink;
+}
+.kutuF {
+    background-color:rgb(66, 61, 61) ;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.clearfix {
+    clear: both;
+}
+.kutuC {
+    background-color:rgb(66, 61, 61) ;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.containerF {
+    float:left;
+}
+.containerC {
+    float:right;
+}
