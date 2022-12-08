@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form05 Sayfası</title>
+  </head>
+  <body>
+    <div style="margin: 20px;padding: 5px ; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: larger;">
+      <h2>Lütfen aşagıdaki formu doldurunuz</h2>
+      <form action="">
+        <ul type="">
+            <li>
+        <label for="name">Adı</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="isminizi yazınız!"
+        />
+    </li>
+    <li>
+        <label for="lastname">Soyadı</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Soyisminizi yazınız!"
+        />
+    </li><li></li>
+        <label for="Cinsiyet">Cinsiyet</label>
+        <input type="radio" name="Cinsiyet" id="Bay" value="Bay">
+        <label for="Bay">Bay</label>
+        <input type="radio" name="Cinsiyet" id="Bayan" value="Bayan">
+        <label for="Bayan">Bayan</label>
+    </li><li>
+        <label for="">il Seçiniz</label>
+        <select name="il" id="il" multiple size="1">
+            <option value="Adana">Adana</option>
+            <option value="Adıyaman">Adıyaman</option>
+            <option value="Afyon">Afyon</option>
+            <option value="Ağrı">Ağrı</option>
+        </select>
+    </li><li>
+        <label for="eposta">Eposta</label>
+        <input type="email" name="eposta" id="eposta">
+    </li><li>
+        <label for="website">Kişisel Site</label>
+        <input type="url" name="website" id="website">
+    </li><li>
+        <label for="telefon">Telefon</label>
+        <input type="tel" name="telefon" id="telefon">
+    </li><li>
+        <label for="hobi">Hobiler</label>
+        <input type="checkbox" name="Futbol" id="">Futbol
+        <input type="checkbox" name="Voleybol" id="">Voleybol
+        <input type="checkbox" name="Basketbol" id="">Basketbol
+    </li><li>
+        <label for="profil">Profil Fotoğrafı</label>
+        <input type="file" name="profil" id="">
+    </li><li>
+        <label for="dogumTarihi">Doğum Tarihi</label>
+        <input type="date" name="dogumTarihi" id="">
+    </li><li>
+        <label for="adres">Adres</label>
+        <textarea name="adres" id="" cols="30" rows="10" placeholder="adresinizi yazınız" required></textarea>
+    </li><li>
+        <input type="submit" value="Kayıt Ol">
+        <input type="reset" value="Temizle">
+    </ul>
+      </form>
+    </div>
+  </body>
+</html>
