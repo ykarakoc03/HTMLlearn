@@ -1,4 +1,6 @@
 # HTMLlearn
 HTML tag ve kullanım alanları
+<br>
 CSS Kullanımı ve Çalışma şekli
-Farklı task ve çözümleri
+<Br>
+ Alıştırmalar ve Çözümleri
