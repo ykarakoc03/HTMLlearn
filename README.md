@@ -1,5 +1,5 @@
 # HTMLlearn
-HTML tag ve kullanım alanları
+HTML tag ve kullanım yöntemleri
 <br>
 CSS Kullanımı ve Çalışma şekli
 <Br>
